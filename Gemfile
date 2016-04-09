@@ -35,6 +35,7 @@ gem 'passenger'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'net-ssh', "2.7.0" # needed by capistrano makes AUTH ERROR
   gem 'capistrano-rails'
   gem 'capistrano-ssh-doctor'
   gem 'capistrano-uberspace', github:'mediatainment/capistrano-uberspace'
