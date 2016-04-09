@@ -35,8 +35,9 @@ gem 'passenger'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'sshkit', github: 'capistrano/sshkit'
   gem 'capistrano-rails'
-  gem 'capistrano-uberspace', github:'mediatainment/capistrano-uberspace'
+  gem 'capistrano-uberspace', github:'tessi/capistrano-uberspace'
 end
 
 group :development do

@@ -9,7 +9,7 @@ set :ruby_version, '2.3.0'
 
 set :domain, 'capella_rails.capella.uberspace.de'
 
-set :user, 'simons'
+set :user, 'ssimon'
 
 set :branch, 'master'
 
