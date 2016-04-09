@@ -37,7 +37,9 @@ group :development, :test do
   gem 'byebug'
   gem 'sshkit', github: 'capistrano/sshkit'
   gem 'capistrano-rails'
-  gem 'capistrano-uberspace', github:'tessi/capistrano-uberspace'
+  gem 'capistrano-uberspace', github:'mediatainment/capistrano-uberspace'
+  gem 'capistrano-rails-tail-log'
+
 end
 
 group :development do

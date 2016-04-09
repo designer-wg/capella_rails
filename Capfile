@@ -10,6 +10,7 @@ require 'capistrano/rails/assets'
 require 'capistrano/rails/migrations'
 require 'capistrano/uberspace'
 require 'capistrano/uberspace/sqlite3'
+require 'capistrano/rails_tail_log'
 #require 'capistrano/ssh_doctor'
 # Include tasks from other gems included in your Gemfile
 #

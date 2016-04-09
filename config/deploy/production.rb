@@ -7,7 +7,7 @@ set :application, 'capella_rails_production'
 
 set :ruby_version, '2.3.0'
 
-set :domain, 'capella_rails.capella.uberspace.de'
+set :domain, 'capella_rails.ssimon.capella.uberspace.de'
 
 set :user, 'ssimon'
 
@@ -21,7 +21,7 @@ set :SECRET_KEY_BASE, '7d8f63afea54ee684201164844fd0f3eeee38be8c713d47a24311836c
    roles: %w{web app cron db},
    primary: true,
    ssh_options: {
-     verbose: :debug,
+     keys: %w{~/.ssh/authorized_keys},
      forward_agent: true,
      auth_methods: %w(publickey)
 
